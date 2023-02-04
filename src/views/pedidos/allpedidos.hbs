@@ -1,0 +1,34 @@
+<div class="row">
+    {{#each pedidos}}
+        <div class="col-md-3">
+            <div class="card-pedido">
+                <div class="card-body-pedido">
+                    <div class="card-title-pedido">
+                        <h4 class="card-title">
+                            {{title}} 
+                        </h4>
+                        <a href="/pedidos/editar/{{_id}}"><i class="fa-solid fa-pen-to-square"></i></a>
+                    </div>
+                    <div class="card-text">
+                        <p> {{direction}} </p>
+                        <p> {{description}} </p>
+                    </div>
+                    <form action="/pedidos/eliminar/{{_id}}?_method=delete" method="post">
+                        <input type="hidden" name="_method" value="delete">
+                        <button class="btn btn-danger btn-block btn-sm" type="submit">
+                            Eliminar
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    {{else}}
+        <div class="card-hpedido">
+            <div class="card-body">
+                <h1>¡¡Bienvenido!!</h1>
+                <p class="lead">Realiza tu pedido porfavor</p>
+                <a href="/pedidos/nuevopedido" class="btn">Hacer un pedido</a>
+            </div>
+        </div>
+    {{/each}}
+</div>

@@ -1,0 +1,125 @@
+.card-pedido {
+    display: flex;
+    height: 290px;
+    width: 300px;
+    background-image: url(/img/fondo.jpg);
+    margin-left: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 2%;
+    border: solid 3px #900;
+}
+.card-title-pedido {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.card-text p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 30px;   
+}
+.card-body-pedido button{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 95px;    
+}
+.card-title-pedido i {
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 230px;
+}
+.card-title-pedido h4 {
+    -webkit-text-stroke: 2px #900;
+    color: rgb(226, 183, 10);
+}
+.card-hpedido {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-image: url(/img/fondo.jpg);
+    width: 25%;
+    height: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 2%;
+    border: solid 3px #900;
+}
+.card-hpedido h1, p {
+    -webkit-text-stroke: 2px #900;
+    color: rgb(226, 183, 10);
+}
+.card-hpedido a {
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    background-color: #400;
+    color: #fff;
+    border: 2px solid rgb(226, 183, 10);
+    transition: all .3s;
+}
+.card-hpedido a:hover {
+    color: #fff;
+    background-color: rgb(226, 183, 10);
+    border: 2px solid #900;
+}
+.formulario {
+    display: block;
+    align-items: center;
+}
+.formulario input {
+    text-align: center;
+    margin: 5px;
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid rgb(226, 183, 10);
+    color: #900;
+    font-size: 18px;
+}
+.formulario input::placeholder {
+    color: #900;
+}
+.formulario textarea {
+    resize: none;
+    text-align:center;
+    margin-top: 10px;
+    width: 300px;
+    height: 100px;
+    border: 1px solid rgb(226, 183, 10);
+    color: #900;
+    font-size: 18px;
+}
+.formulario textarea::placeholder {
+    color: #900;
+}
+.formulario button {
+    margin-top: 5px;
+    height: 50px;
+    width: 100px;
+    background-color: #400;
+    color: #fff;
+    border: 2px solid rgb(226, 183, 10);
+    transition: all .3s;
+}
+.formulario button:hover {
+    color: #fff;
+    background-color: rgb(226, 183, 10);
+    border: 2px solid #900;
+}
+.form-group input {
+    margin: auto;
+    margin-top: 15px;
+}
+.form-group textarea {
+    resize: none;
+    margin: auto;
+    margin-top: 15px;
+    height: 100px;
+    width: 327px;
+    border: 1px solid rgb(226, 183, 10);
+    color: #900;
+    font-size: 18px;
+}
+

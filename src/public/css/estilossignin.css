@@ -1,0 +1,42 @@
+.card {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border: solid 3px #900;
+    background-image: url(/img/fondo.jpg);
+    height: 430px;
+}
+.card img {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border: solid 2px rgb(226, 183, 10);
+}
+.form-group {
+    text-align: center;
+}
+.form-group input {
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid rgb(226, 183, 10);
+    width: 330px;
+    color: #900;
+    font-size: 18px;
+}
+.form-group input::placeholder {
+    color: #900;
+}
+.form-group button {
+    margin-top: 30px;
+    background-color: #400;
+    border: 2px solid rgb(226, 183, 10);
+    transition: all .3s;
+}
+.form-group button:hover {
+    background-color: rgb(226, 183, 10);
+    border: 2px solid #900;
+}
+.card-header {
+    text-align: center;
+    font-size: 30px;
+    color: #900;
+    -webkit-text-stroke: 1px rgb(226, 183, 10);
+}

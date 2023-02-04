@@ -1,0 +1,49 @@
+.login__items {
+    display: block;
+    text-align: center;
+    margin-right: -200px;
+}
+.login__items a { 
+    text-decoration: none;
+    color: #400;
+    transition: all .3s;
+}
+.login__items a:hover {
+    color: rgb(226, 183, 10);
+    -webkit-text-stroke: 1px #900;
+}
+
+.item__signin {
+    margin-bottom: 10px;
+}
+.drop__button{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -30px;
+    margin-left: 90px;
+    border: none;
+    background-color: transparent;
+}
+.drop__button img {
+    height: 60px;
+    width: 60px;
+}
+.drop__menu {
+    margin: auto;
+}
+.dropdown-menu {
+    text-align: center;
+    background-image: url(/img/fondo.jpg);
+    border: solid 1px #900;
+}
+.dropdown-menu a {
+    text-decoration: none;
+    color: #400;
+    transition: all .3s;
+}
+.dropdown-menu a:hover {
+    color: rgb(226, 183, 10);
+    -webkit-text-stroke: 1px #900;
+}
+
