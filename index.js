@@ -6,6 +6,7 @@ const session = require('express-session');
 const { constants } = require('buffer');
 const flash = require('connect-flash');
 const passport = require('passport');
+const { getConnection } = require('./dao/conexion');
 
 
 // Initiliazations
