@@ -10,7 +10,7 @@ const passport = require('passport');
 
 // Initiliazations
 const app = express();
-require('../database');
+require('./database');
 require('./config/passport');
 
 // Settings
