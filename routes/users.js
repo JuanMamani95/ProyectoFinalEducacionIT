@@ -4,6 +4,7 @@ const router = express.Router();
 const User = require('../models/User');
 
 const passport = require('passport');
+require('dotenv').config();
 
 router.get('/users/ingresar', (req, res) => {
     res.render('users/ingresar.hbs');

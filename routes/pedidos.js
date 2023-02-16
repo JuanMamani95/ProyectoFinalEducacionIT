@@ -3,6 +3,7 @@ const router = express.Router();
 
 const Pedido = require('../models/Pedido');
 const { isAuthenticated } = require('../helpers/auth');
+require('dotenv').config();
 
 router.get('/pedidos/nuevopedido', isAuthenticated, (req, res) => {
    res.render('pedidos/nuevopedido.hbs');

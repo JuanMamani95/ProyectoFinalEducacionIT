@@ -7,6 +7,7 @@ const { constants } = require('buffer');
 const flash = require('connect-flash');
 const passport = require('passport');
 const { getConnection } = require('./dao/conexion');
+require('dotenv').config();
 
 
 // Initiliazations
